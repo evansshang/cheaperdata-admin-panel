@@ -1,0 +1,34 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://8080-ikvov4l5wwaoftkn4fou9-749aac3e.manusvm.computer/
+Subject: Directory listing for /
+Date: Tue, 27 May 2025 18:10:38 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--Q73JNmMWjOqeWjatnTXjp9A6BYEp6LIDByKKLt6c7L----"
+
+
+------MultipartBoundary--Q73JNmMWjOqeWjatnTXjp9A6BYEp6LIDByKKLt6c7L----
+Content-Type: text/html
+Content-ID: <frame-77156E64CAF6BA070BC91FD005FDDCBE@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://8080-ikvov4l5wwaoftkn4fou9-749aac3e.manusvm.computer/
+
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Directory listing for /</title>
+</head>
+<body>
+<h1>Directory listing for /</h1>
+<hr>
+<ul>
+<li><a href="https://8080-ikvov4l5wwaoftkn4fou9-749aac3e.manusvm.computer/create_admin.py">create_admin.py</a></li>
+<li><a href="https://8080-ikvov4l5wwaoftkn4fou9-749aac3e.manusvm.computer/render.yaml">render.yaml</a></li>
+<li><a href="https://8080-ikvov4l5wwaoftkn4fou9-749aac3e.manusvm.computer/requirements.txt">requirements.txt</a></li>
+<li><a href="https://8080-ikvov4l5wwaoftkn4fou9-749aac3e.manusvm.computer/src/">src/</a></li>
+</ul>
+<hr>
+
+
+</body></html>
+------MultipartBoundary--Q73JNmMWjOqeWjatnTXjp9A6BYEp6LIDByKKLt6c7L------
