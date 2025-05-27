@@ -1,0 +1,78 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://8001-ikvov4l5wwaoftkn4fou9-749aac3e.manusvm.computer/
+Subject: Flutter Demo
+Date: Tue, 27 May 2025 18:06:48 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--xuG1sHWpG9Uth64BI2MI1oG0FOAn9DYF67naj4FsMC----"
+
+
+------MultipartBoundary--xuG1sHWpG9Uth64BI2MI1oG0FOAn9DYF67naj4FsMC----
+Content-Type: text/html
+Content-ID: <frame-8BEBBFEB5493A6E8681BFD25D74A249D@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://8001-ikvov4l5wwaoftkn4fou9-749aac3e.manusvm.computer/
+
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-b9849e4d-e7a5-495b-bda6-ba7cc2eb52c8@mhtml.blink" />
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="https://8001-ikvov4l5wwaoftkn4fou9-749aac3e.manusvm.computer/">
+
+  
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="cheaperdata_admin">
+  <link rel="apple-touch-icon" href="https://8001-ikvov4l5wwaoftkn4fou9-749aac3e.manusvm.computer/icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://8001-ikvov4l5wwaoftkn4fou9-749aac3e.manusvm.computer/favicon.png">
+
+  <title>Flutter Demo</title>
+  <link rel="manifest" href="https://8001-ikvov4l5wwaoftkn4fou9-749aac3e.manusvm.computer/manifest.json">
+
+  
+  <!-- This script adds the flutter initialization JS code -->
+  
+<meta flt-viewport="" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><meta id="flutterweb-theme" name="theme-color" content="rgba(0,0,0,0)"></head>
+<body flt-renderer="html (auto-selected)" flt-build-mode="release" spellcheck="false" flt-embedding="full-page" style="position: fixed; inset: 0px; overflow: hidden; padding: 0px; margin: 0px; user-select: none; touch-action: none;">
+  
+
+
+<flutter-view flt-view-id="0" style="position: absolute; inset: 0px;"><flt-glass-pane><template shadowmode="open"><flt-semantics-placeholder role="button" aria-label="Enable accessibility" style="position: absolute; inset: 0px;"></flt-semantics-placeholder><flt-scene-host style="pointer-events: none;"><flt-scene style="position: absolute;"><flt-transform style="position: absolute; transform-origin: 0px 0px 0px; transform: none;"><flt-offset style="position: absolute; transform-origin: 0px 0px 0px; transform: translate(0px, 0px);"><flt-offset style="position: absolute; transform-origin: 0px 0px 0px; transform: translate(0px, 0px);"><flt-picture aria-hidden="true" style="position: absolute; transform: translate(0px, 0px);"><flt-canvas style="position: absolute; transform: translate(-1px, -1px);"><draw-rrect style="position: absolute; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 1, 1); width: 384px; height: 727.111px; background-color: rgb(255, 251, 255); border-radius: 1px;"></draw-rrect><flt-paragraph style="position: absolute; white-space: pre; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 48.31, 364.489); left: 0px; top: 0px;"><flt-span style="color: rgb(29, 27, 30); font-size: 14px; font-weight: normal; font-family: Roboto, Arial, sans-serif; letter-spacing: 0.25px; position: absolute; top: 0px; left: 0px; width: 24.42px; line-height: 20.0167px;">You</flt-span><flt-span style="color: rgb(29, 27, 30); font-size: 14px; font-weight: normal; font-family: Roboto, Arial, sans-serif; letter-spacing: 0.25px; position: absolute; top: 0px; left: 24.42px; width: 3.72px; line-height: 20.0167px;"> </flt-span><flt-span style="color: rgb(29, 27, 30); font-size: 14px; font-weight: normal; font-family: Roboto, Arial, sans-serif; letter-spacing: 0.25px; position: absolute; top: 0px; left: 28.14px; width: 30.34px; line-height: 20.0167px;">have</flt-span><flt-span style="color: rgb(29, 27, 30); font-size: 14px; font-weight: normal; font-family: Roboto, Arial, sans-serif; letter-spacing: 0.25px; position: absolute; top: 0px; left: 58.48px; width: 3.72px; line-height: 20.0167px;"> </flt-span><flt-span style="color: rgb(29, 27, 30); font-size: 14px; font-weight: normal; font-family: Roboto, Arial, sans-serif; letter-spacing: 0.25px; position: absolute; top: 0px; left: 62.2px; width: 47.33px; line-height: 20.0167px;">pushed</flt-span><flt-span style="color: rgb(29, 27, 30); font-size: 14px; font-weight: normal; font-family: Roboto, Arial, sans-serif; letter-spacing: 0.25px; position: absolute; top: 0px; left: 109.53px; width: 3.72px; line-height: 20.0167px;"> </flt-span><flt-span style="color: rgb(29, 27, 30); font-size: 14px; font-weight: normal; font-family: Roboto, Arial, sans-serif; letter-spacing: 0.25px; position: absolute; top: 0px; left: 113.25px; width: 20.46px; line-height: 20.0167px;">the</flt-span><flt-span style="color: rgb(29, 27, 30); font-size: 14px; font-weight: normal; font-family: Roboto, Arial, sans-serif; letter-spacing: 0.25px; position: absolute; top: 0px; left: 133.71px; width: 3.72px; line-height: 20.0167px;"> </flt-span><flt-span style="color: rgb(29, 27, 30); font-size: 14px; font-weight: normal; font-family: Roboto, Arial, sans-serif; letter-spacing: 0.25px; position: absolute; top: 0px; left: 137.43px; width: 41.82px; line-height: 20.0167px;">button</flt-span><flt-span style="color: rgb(29, 27, 30); font-size: 14px; font-weight: normal; font-family: Roboto, Arial, sans-serif; letter-spacing: 0.25px; position: absolute; top: 0px; left: 179.25px; width: 3.72px; line-height: 20.0167px;"> </flt-span><flt-span style="color: rgb(29, 27, 30); font-size: 14px; font-weight: normal; font-family: Roboto, Arial, sans-serif; letter-spacing: 0.25px; position: absolute; top: 0px; left: 182.97px; width: 23.92px; line-height: 20.0167px;">this</flt-span><flt-span style="color: rgb(29, 27, 30); font-size: 14px; font-weight: normal; font-family: Roboto, Arial, sans-serif; letter-spacing: 0.25px; position: absolute; top: 0px; left: 206.89px; width: 3.72px; line-height: 20.0167px;"> </flt-span><flt-span style="color: rgb(29, 27, 30); font-size: 14px; font-weight: normal; font-family: Roboto, Arial, sans-serif; letter-spacing: 0.25px; position: absolute; top: 0px; left: 210.61px; width: 35.25px; line-height: 20.0167px;">many</flt-span><flt-span style="color: rgb(29, 27, 30); font-size: 14px; font-weight: normal; font-family: Roboto, Arial, sans-serif; letter-spacing: 0.25px; position: absolute; top: 0px; left: 245.86px; width: 3.72px; line-height: 20.0167px;"> </flt-span><flt-span style="color: rgb(29, 27, 30); font-size: 14px; font-weight: normal; font-family: Roboto, Arial, sans-serif; letter-spacing: 0.25px; position: absolute; top: 0px; left: 249.58px; width: 36.16px; line-height: 20.0167px;">times</flt-span><flt-span style="color: rgb(29, 27, 30); font-size: 14px; font-weight: normal; font-family: Roboto, Arial, sans-serif; letter-spacing: 0.25px; position: absolute; top: 0px; left: 285.74px; width: 3.64px; line-height: 20.0167px;">:</flt-span></flt-paragraph><flt-paragraph style="position: absolute; white-space: pre; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 185.13, 384.506); left: 0px; top: 0px;"><flt-span style="color: rgb(29, 27, 30); font-size: 28px; font-weight: normal; font-family: Roboto, Arial, sans-serif; letter-spacing: 0px; position: absolute; top: 0px; left: 0px; width: 15.74px; line-height: 36.1167px;">0</flt-span></flt-paragraph></flt-canvas></flt-picture><flt-picture aria-hidden="true" style="position: absolute; transform: translate(0px, 0px);"><flt-canvas style="position: absolute; transform: translate(-1px, -1px);"><draw-rrect style="position: absolute; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 1, 1); width: 384px; height: 56px; background-color: rgb(211, 187, 255); border-radius: 1px;"></draw-rrect><div style="position: absolute; overflow: hidden; width: 384px; height: 56px; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 1, 1);"><div style="position: absolute; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, -1, -1);"><flt-paragraph style="position: absolute; white-space: pre; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 17, 15.0306); left: 0px; top: 0px;"><flt-span style="color: rgb(29, 27, 30); font-size: 22px; font-weight: normal; font-family: Roboto, Arial, sans-serif; letter-spacing: 0px; position: absolute; top: 0px; left: 0px; width: 63.15px; line-height: 27.9389px;">Flutter</flt-span><flt-span style="color: rgb(29, 27, 30); font-size: 22px; font-weight: normal; font-family: Roboto, Arial, sans-serif; letter-spacing: 0px; position: absolute; top: 0px; left: 63.15px; width: 5.46px; line-height: 27.9389px;"> </flt-span><flt-span style="color: rgb(29, 27, 30); font-size: 22px; font-weight: normal; font-family: Roboto, Arial, sans-serif; letter-spacing: 0px; position: absolute; top: 0px; left: 68.61px; width: 57.94px; line-height: 27.9389px;">Demo</flt-span><flt-span style="color: rgb(29, 27, 30); font-size: 22px; font-weight: normal; font-family: Roboto, Arial, sans-serif; letter-spacing: 0px; position: absolute; top: 0px; left: 126.55px; width: 5.46px; line-height: 27.9389px;"> </flt-span><flt-span style="color: rgb(29, 27, 30); font-size: 22px; font-weight: normal; font-family: Roboto, Arial, sans-serif; letter-spacing: 0px; position: absolute; top: 0px; left: 132.01px; width: 59.2px; line-height: 27.9389px;">Home</flt-span><flt-span style="color: rgb(29, 27, 30); font-size: 22px; font-weight: normal; font-family: Roboto, Arial, sans-serif; letter-spacing: 0px; position: absolute; top: 0px; left: 191.21px; width: 5.46px; line-height: 27.9389px;"> </flt-span><flt-span style="color: rgb(29, 27, 30); font-size: 22px; font-weight: normal; font-family: Roboto, Arial, sans-serif; letter-spacing: 0px; position: absolute; top: 0px; left: 196.67px; width: 49.75px; line-height: 27.9389px;">Page</flt-span></flt-paragraph></div></div></flt-canvas></flt-picture><flt-picture aria-hidden="true" style="position: absolute; transform: translate(0px, 0px);"><flt-canvas style="position: absolute; transform: translate(284px, 629px);"><canvas width="322" height="322" style="position: absolute; width: 114.489px; height: 114.489px; z-index: -1;"></canvas><flt-paragraph style="position: absolute; white-space: pre; transform-origin: 0px 0px 0px; transform: matrix(1, -2.44929e-16, 2.44929e-16, 1, 44, 42.1111); left: 0px; top: 0px;"><flt-span style="color: rgb(37, 0, 89); font-size: 24px; font-family: MaterialIcons, Arial, sans-serif; font-variation-settings: &quot;FILL&quot; 0, &quot;wght&quot; 400, &quot;GRAD&quot; 0, &quot;opsz&quot; 48; position: absolute; top: 0px; left: 0px; width: 24px; line-height: 24px;"></flt-span></flt-paragraph></flt-canvas></flt-picture></flt-offset></flt-offset></flt-transform></flt-scene></flt-scene-host><flt-announcement-host></flt-announcement-host><flt-ruler-host style="position: fixed; visibility: hidden; overflow: hidden; top: 0px; left: 0px; width: 0px; height: 0px;"><div style="visibility: hidden; position: absolute; top: 0px; left: 0px; display: flex; flex-direction: row; align-items: baseline; margin: 0px; border: 0px; padding: 0px;"><flt-paragraph style="font-size: 22px; font-family: Roboto, Arial, sans-serif; line-height: 1.27; white-space: pre;"> </flt-paragraph><div></div></div><div style="visibility: hidden; position: absolute; top: 0px; left: 0px; display: flex; flex-direction: row; align-items: baseline; margin: 0px; border: 0px; padding: 0px;"><flt-paragraph style="font-size: 14px; font-family: Roboto, Arial, sans-serif; line-height: 1.43; white-space: pre;"> </flt-paragraph><div></div></div><div style="visibility: hidden; position: absolute; top: 0px; left: 0px; display: flex; flex-direction: row; align-items: baseline; margin: 0px; border: 0px; padding: 0px;"><flt-paragraph style="font-size: 28px; font-family: Roboto, Arial, sans-serif; line-height: 1.29; white-space: pre;"> </flt-paragraph><div></div></div><div style="visibility: hidden; position: absolute; top: 0px; left: 0px; display: flex; flex-direction: row; align-items: baseline; margin: 0px; border: 0px; padding: 0px;"><flt-paragraph style="font-size: 24px; font-family: MaterialIcons, Arial, sans-serif; line-height: 1; white-space: pre;"> </flt-paragraph><div></div></div></flt-ruler-host></template></flt-glass-pane><flt-text-editing-host></flt-text-editing-host><flt-semantics-host style="position: absolute; transform-origin: 0px 0px 0px; transform: scale(0.355556);"></flt-semantics-host></flutter-view></body></html>
+------MultipartBoundary--xuG1sHWpG9Uth64BI2MI1oG0FOAn9DYF67naj4FsMC----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-b9849e4d-e7a5-495b-bda6-ba7cc2eb52c8@mhtml.blink
+
+@charset "utf-8";
+
+flutter-view flt-scene-host { font: 14px sans-serif; }
+
+flutter-view flt-semantics input[type="range"] { appearance: none; width: 100%; position: absolute; border: none; inset: 0px; }
+
+flutter-view input::selection { background-color: transparent; }
+
+flutter-view textarea::selection { background-color: transparent; }
+
+flutter-view flt-semantics input, flutter-view flt-semantics textarea, flutter-view flt-semantics [contenteditable="true"] { caret-color: transparent; }
+
+flutter-view .flt-text-editing::placeholder { opacity: 0; }
+
+flutter-view .transparentTextEditing:-webkit-autofill, flutter-view .transparentTextEditing:-webkit-autofill:hover, flutter-view .transparentTextEditing:-webkit-autofill:focus, flutter-view .transparentTextEditing:-webkit-autofill:active { opacity: 0 !important; }
+------MultipartBoundary--xuG1sHWpG9Uth64BI2MI1oG0FOAn9DYF67naj4FsMC------
