@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: cheaperdata-admin-panel
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn src.main:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        value: sqlite:///cheaperdata.db
+    plan: free
