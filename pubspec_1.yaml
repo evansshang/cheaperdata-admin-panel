@@ -1,0 +1,32 @@
+name: cheaperdata_user
+description: CheaperData mobile app for selling discounted MTN and Orange data
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.0.0
+  firebase_auth: ^4.2.0
+  cloud_firestore: ^4.0.0
+  http: ^0.13.5
+  # flutter_localizations: # Removed
+  #   sdk: flutter
+  # intl: ^0.18.0 # Removed
+  # provider: ^6.0.5 # Removed (assuming it was only for language)
+  shared_preferences: ^2.2.0 # Keep if used elsewhere, e.g., settings
+  cupertino_icons: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  # assets: # Removed lang assets
+  #   - assets/lang/
+
