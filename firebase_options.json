@@ -1,0 +1,10 @@
+// Firebase configuration for CheaperData app
+{
+  "apiKey": "AIzaSyA1234567890abcdefghijklmnopqrstuvwxyz",
+  "authDomain": "cheaperdata-app.firebaseapp.com",
+  "projectId": "cheaperdata-app",
+  "storageBucket": "cheaperdata-app.appspot.com",
+  "messagingSenderId": "123456789012",
+  "appId": "1:123456789012:web:abcdef1234567890abcdef",
+  "measurementId": "G-ABCDEF1234"
+}
