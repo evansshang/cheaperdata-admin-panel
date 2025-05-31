@@ -1,6 +1,7 @@
 import os
 import sys
-# DON'T CHANGE THIS !!!
+
+# Allow imports from current directory
 sys.path.insert(0, os.path.dirname(__file__))
 
 from flask import Flask, send_from_directory, session, redirect, url_for
@@ -11,7 +12,6 @@ from routes.dashboard import dashboard_bp
 from routes.users import users_bp
 from routes.orders import orders_bp
 from routes.settings import settings_bp
-
 app = Flask(__name__, 
             static_folder=os.path.join(os.path.dirname(__file__), 'static'),
             template_folder=os.path.join(os.path.dirname(__file__), 'templates'))
