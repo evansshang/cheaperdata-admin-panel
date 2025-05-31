@@ -1,16 +1,16 @@
 import os
 import sys
 # DON'T CHANGE THIS !!!
-sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.dirname(__file__),'src'))
 
 from flask import Flask, send_from_directory, session, redirect, url_for
-from src.models.user import db
-from src.routes.user import user_bp
-from src.routes.auth import auth_bp
-from src.routes.dashboard import dashboard_bp
-from src.routes.users import users_bp
-from src.routes.orders import orders_bp
-from src.routes.settings import settings_bp
+from models.user import db
+from routes.user import user_bp
+from routes.auth import auth_bp
+from routes.dashboard import dashboard_bp
+from routes.users import users_bp
+from routes.orders import orders_bp
+from routes.settings import settings_bp
 
 app = Flask(__name__, 
             static_folder=os.path.join(os.path.dirname(__file__), 'static'),
