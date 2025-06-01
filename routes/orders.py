@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, request, jsonify, flash, redirect, url_for
-from src.routes.auth import admin_required
+from routes.auth import admin_required
 
 orders_bp = Blueprint('orders', __name__)
 
