@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify, session, redirect, url_for, render_template, flash
-from src.models.user import User, db
+from models.user import User, db
 from functools import wraps
 
 auth_bp = Blueprint('auth', __name__)
