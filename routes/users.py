@@ -1,6 +1,6 @@
 from flask import Blueprint, render_template, request, jsonify, flash, redirect, url_for
-from src.models.user import User, db
-from src.routes.auth import admin_required
+from models.user import User, db
+from routes.auth import admin_required
 
 users_bp = Blueprint('users', __name__)
 
