@@ -9,7 +9,6 @@ from models.user import db
 from routes.users import users_bp
 from routes.auth import auth_bp
 from routes.dashboard import dashboard_bp
-from routes.users import users_bp
 from routes.orders import orders_bp
 from routes.settings import settings_bp
 app = Flask(__name__, 
