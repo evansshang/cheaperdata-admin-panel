@@ -6,7 +6,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 from flask import Flask, send_from_directory, session, redirect, url_for
 from models.user import db
-from routes.user import user_bp
+from routes.users import users_bp
 from routes.auth import auth_bp
 from routes.dashboard import dashboard_bp
 from routes.users import users_bp
