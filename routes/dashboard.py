@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, session, redirect, url_for
-from src.routes.auth import admin_required
+from routes.auth import admin_required
 
 dashboard_bp = Blueprint('dashboard', __name__)
 
