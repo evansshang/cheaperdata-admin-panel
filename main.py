@@ -32,3 +32,6 @@ app.register_blueprint(dashboard_bp, url_prefix='/dashboard')
 app.register_blueprint(users_bp, url_prefix='/users')
 app.register_blueprint(orders_bp, url_prefix='/orders')
 app.register_blueprint(settings_bp, url_prefix='/settings')
+@app.route('/')
+def home():
+    return "Welcome to the CheaperData Admin Panel!"
