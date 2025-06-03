@@ -5,7 +5,7 @@ import sys
 sys.path.insert(0, os.path.dirname(__file__))
 
 from flask import Flask, send_from_directory, session, redirect, url_for
-
+from flask import Flask, render_template, send_from_directory, session, redirect, url_for
 # ✅ Corrected Blueprint imports
 from models.user import db
 from routes.auth import auth_bp
@@ -32,7 +32,9 @@ app.register_blueprint(dashboard_bp, url_prefix='/dashboard')
 app.register_blueprint(users_bp, url_prefix='/users')
 app.register_blueprint(orders_bp, url_prefix='/orders')
 app.register_blueprint(settings_bp, url_prefix='/settings')
-@app.route('/')
-def home():return "<h1>Welcome to the Cheaperdata Admin Panel</h1><p>The backend is running!</p>"
+@app.route("/")
+def home():
+    return render_template("home.html")
+
     
     
