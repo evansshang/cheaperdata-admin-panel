@@ -35,3 +35,6 @@ app.register_blueprint(settings_bp, url_prefix='/settings')
 @app.route('/')
 def home():
     return "Welcome to the CheaperData Admin Panel!"
+    @app.route("/")
+def home():
+    return "<h1>Welcome to CheaperData Admin Panel</h1><p>The backend is running!</p>"
