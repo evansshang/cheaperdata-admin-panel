@@ -41,5 +41,12 @@ def status():
         "message": "CheaperData backend is running",
         "version": "1.0"
     })
+    @app.route("/status")
+def status():
+    return jsonify({
+        "status": "ok",
+        "message": "Cheaperdata Admin Panel is live!",
+        "version": "1.0"
+    })
     
     
