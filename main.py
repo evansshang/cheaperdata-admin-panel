@@ -46,11 +46,10 @@ def status():
         "version": "1.0"
     })
 
-@app.route("/status1")
-def status1():
     return jsonify({
         "status": "ok",
         "message": "Cheaperdata Admin Panel is live",
-        "version": "1.0
+        "version": "1.0"
+    })
    
     
