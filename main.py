@@ -1,11 +1,10 @@
 import os
 import sys
-
 # Allow imports from current directory
 sys.path.insert(0, os.path.dirname(__file__))
-
 from flask import Flask, send_from_directory, session, redirect, url_for
 from flask import Flask, render_template, send_from_directory, session, redirect, url_for
+from flask import jsonify  
 # ✅ Corrected Blueprint imports
 from models.user import db
 from routes.auth import auth_bp
