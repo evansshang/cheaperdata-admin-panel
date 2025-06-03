@@ -34,19 +34,23 @@ app.register_blueprint(settings_bp, url_prefix='/settings')
 @app.route("/")
 def home():
     return "<h1>Welcome to CheaperData Admin Panel</h1><p>The backend is running!</p>"
+@app.route("/")
+def home():
+    return "<h1>Welcome to Cheaperdata Admin Panel!</h1><p>The backend is running.</p>"
+
 @app.route("/status")
 def status():
     return jsonify({
         "status": "ok",
-        "message": "CheaperData backend is running",
+        "message": "Cheaperdata backend is running",
         "version": "1.0"
     })
-    @app.route("/status")
-def status():
+
+@app.route("/status1")
+def status1():
     return jsonify({
         "status": "ok",
-        "message": "Cheaperdata Admin Panel is live!",
-        "version": "1.0"
-    })
-    
+        "message": "Cheaperdata Admin Panel is live",
+        "version": "1.0
+   
     
