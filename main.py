@@ -54,6 +54,10 @@ def status():
         "message": "CheaperData backend is live",
         "version": "1.0"
     })
-
+@app.route('/users-debug')
+def users_debug():
+    users = User.query.all()
+    user_data = [{'id': u.id, 'username': u.username, 'email': u.email} for u in users]
+    return jsonify(user_data)
 if __name__ == '__main__':
     app.run(debug=True)
