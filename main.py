@@ -2,7 +2,7 @@ import os
 from flask import Flask, render_template, send_from_directory, session, redirect, url_for, jsonify
 from flask_sqlalchemy import SQLAlchemy
 
-# Initialize extensions
+# Setup DB (but do not import models yet)
 db = SQLAlchemy()
 
 # Initialize app
@@ -16,12 +16,12 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 # Bind db to app
 db.init_app(app)
 
-# Import models AFTER init_app to avoid circular import issues
-from models.user import User
-
-# Create tables + admin
+# Only now: import models (AFTER db.init_app)
 with app.app_context():
+    from models.user import User
+
     db.create_all()
+
     user = User.query.filter_by(username="admin").first()
     if not user:
         user = User(
@@ -33,7 +33,7 @@ with app.app_context():
         db.session.add(user)
         db.session.commit()
 
-# Routes and Blueprints
+# Blueprints (must be registered after app is ready)
 from routes.auth import auth_bp
 from routes.dashboard import dashboard_bp
 from routes.users import users_bp
