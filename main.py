@@ -28,6 +28,7 @@ db.init_app(app)
 with app.app_context():
     db.create_all()
     from models.user import User
+    
     user = 
 User.query.filter_by(username='admin').first()
     if not user:
