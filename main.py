@@ -24,7 +24,23 @@ app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'asdf#FGSgvasgf$55JWGT')
 database_url = os.environ.get('DATABASE_URL', 'postgresql:///cheaperdata_db')
 app.config['SQLALCHEMY_DATABASE_URI'] = database_url
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-db.init_app(app)
+db.init_app(app)# Auto-create admin user on startup
+from models.user import User
+
+with app.app_context():
+    existing_admin = User.query.filter_by(username='admin').first()
+    if not existing_admin:
+        new_admin = User(
+            username='admin',
+            email='admin@example.com',
+            is_admin=True
+        )
+        new_admin.set_password('adminpass123')
+        db.session.add(new_admin)
+        db.session.commit()
+        print("Admin user created.")
+    else:
+        print("Admin user already exists.")
 # Register Blueprints
 app.register_blueprint(auth_bp, url_prefix='/auth')
 app.register_blueprint(dashboard_bp, url_prefix='/dashboard')
