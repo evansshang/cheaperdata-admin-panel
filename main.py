@@ -23,7 +23,8 @@ app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'asdf#FGSgvasgf$55JWGT')
 # Enable database
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///cheaperdata.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-db.init_app(app)# Auto-create admin user on startup
+db.init_app(app)with app.app_context():
+    db.create_all()
 from models.user import User
 
 with app.app_context():
