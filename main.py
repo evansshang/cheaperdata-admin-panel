@@ -21,8 +21,7 @@ app.template_folder = os.path.join(os.path.dirname(__file__), 'templates')
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'asdf#FGSgvasgf$55JWGT')
 
 # Enable database
-database_url = os.environ.get('DATABASE_URL', 'postgresql:///cheaperdata_db')
-app.config['SQLALCHEMY_DATABASE_URI'] = database_url
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///cheaperdata.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db.init_app(app)# Auto-create admin user on startup
 from models.user import User
