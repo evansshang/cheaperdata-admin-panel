@@ -24,11 +24,14 @@ app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'asdf#FGSgvasgf$55JWGT')
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///cheaperdata.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db.init_app(app)
-with app.app_context():
+
+            with app.app_context():
+    db.create_all()
     from models.user import User
-    user = User.query.filter_by(username='admin').first()
-    if not user:
-        user = User(
+    user = 
+    User.query.filter_by(username='admin').first()
+            if not user:
+        user =User(
             username='admin',
             email='admin@example.com',
             is_admin=True
@@ -46,12 +49,12 @@ app.register_blueprint(users_bp, url_prefix='/users')
 app.register_blueprint(orders_bp, url_prefix='/orders')
 app.register_blueprint(settings_bp, url_prefix='/settings')
 @app.route("/")
-def home():
+            def home():
     return "<h1>Welcome to CheaperData Admin Panel</h1><p>The backend is running!</p>"
 
 
 @app.route("/status")
-def status():
+            def status():
     return jsonify({
         "status": "ok",
         "message": "Cheaperdata backend is running",
